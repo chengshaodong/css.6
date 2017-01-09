@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/jquery_1.9.js"></script>
+		<style>
+			button{
+				width: 420px;
+				height: 450px;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+//			$(function(){
+//				$("button").click(function(){
+//					$("p").show(600).next().css("background","pink")
+//				})
+//			})
+
+//
+//			$(function(){
+//				$("div").html("吃饭").css({
+//					"height":"45px",
+//					"width":"1900px",
+//					"background":"pink",
+//					border:"1px solid #888",
+//					"line-height":"45px",
+//					"text-align":"center"
+//				})
+//			})
+			$(function(){
+				$("#p2").hide();
+				$("#p1").click(function(){
+					$("#p1").css({"background":"pink"}).next().show();
+				})
+				
+			})
+			
+			
+			
+		</script>
+		<p></p>
+		<div style="text-align: center;">
+			<p id="p1" style="background: #cccc;">点击</p>
+			<p id="p2" style="background: #666;">第二个</p>
+			
+		</div>
+		<!--<button></button>-->
+	</body>
+</html>
